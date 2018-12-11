@@ -1,0 +1,154 @@
+/*___bar_______________________________________*/
+
+.bar{
+	height: 38px;
+	background:#f2f2f2;
+	padding:0px 18px;
+}
+
+.wrapper_in_bar{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.info{
+	margin-left: 5px;
+}
+
+.info span{
+	font-size: 11px;
+  	font-family: "Myriad Pro";
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+
+.icon-phone{
+	margin-right: 10px;
+}
+
+.navbar{
+	display: flex;
+}
+
+.navbar li{
+	display: inline-block;
+	font-size: 11px;
+  	font-family: "Lato";
+  	border-right: 1px solid black;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+
+.navbar li:last-child{
+	border:none;
+	padding-right: 0px;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/*___header_______________________________________*/
+
+
+.header{
+	height: 128px;
+	padding: 0px 18px;
+}
+
+.wrapper_in_header{
+	height: 100%;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu{
+	padding-left: 5px;
+}
+
+.menu li{
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.menu li:last-child{
+	margin-right: 0px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-family: "PlayfairDisplay";
+	font-style: italic;
+	font-weight: bold;
+}
+
+.soc_network_and_lang{
+	display: flex;
+}
+
+.soc_network{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.circle{
+	width: 30px;
+	height: 30px;
+	border: 2px solid #dcc599;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 12px;
+	text-decoration: none;
+	color: #dcc599;
+}
+
+.circle:last-child{
+	margin-right: 48px;
+}
+
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+.icon-pinterest-p:before {
+  content: "\e900";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+.soc_network_and_lang select{
+	width: 115px;
+	background:  black;
+	color: white;
+	padding: 12px 5px 12px 35px;
+	border: none;
+	font-size: 12px;
+	font-family:"Myriad Pro", sans-serif;
+}
+
+.lang_768{
+	display: none;
+}
+
+
